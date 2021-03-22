@@ -10,8 +10,8 @@ const Logo = () =>
        <div className='ma4 mt0'>
            <Tilt className="Tilt br2 shadow-2 grow" options={{ max : 55 }} style={{ height: 150, width: 150 }} >
              <div className="Tilt-inner pa3"> 
-                <img alt='Mian Khubaib' src={Profile}></img>
-                <h2 className="tc grow">Developer Mian Khubaib AiF</h2>
+                <img style={{ paddingTop:'5px' }} alt='Mian Khubaib' src={Profile}></img>
+ 
                </div>
            </Tilt>
 
